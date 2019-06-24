@@ -1,12 +1,14 @@
 import React from 'react';
-impor
+import Field from './Field';
+import Button from './Button';
 
 const UserCreate = () => {
     return (
         <div>
-            
+            <Field />
+            <Button />
         </div>
     )
 }
 
-export default UserCreate
+export default UserCreate;
